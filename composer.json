@@ -1,5 +1,5 @@
 {
-    "name": "bratiask/gopay-plugin",
+    "name": "carmagedon/gopay-plugin",
     "type": "sylius-plugin",
     "description": "GoPay payment gateway plugin for Sylius applications.",
     "license": "MIT",
