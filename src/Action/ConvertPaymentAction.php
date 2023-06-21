@@ -28,7 +28,7 @@ final class ConvertPaymentAction implements ActionInterface, GatewayAwareInterfa
 
         $details['totalAmount'] = $payment->getTotalAmount();
         $details['currencyCode'] = $payment->getCurrencyCode();
-        $details['extOrderId'] = uniqid($payment->getNumber());
+        $details['extOrderId'] = $payment->getNumber();
         $details['description'] = $payment->getDescription();
         $details['client_email'] = $payment->getClientEmail();
         $details['client_id'] = $payment->getClientId();
